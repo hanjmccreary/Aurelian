@@ -1,0 +1,177 @@
+body {
+	font-family: Avenir; sans-serif;
+	color: #399474;
+	margin-left: 140px;
+	margin-right: 140px;
+
+}
+p {
+	font-family: serif;
+	margin-top: 0;
+	font-size: 25px;
+}
+h2 {
+	font-size: 45px;
+	font-family: Avenir;
+	text-align: center;
+}
+h3 {
+	font-size: 25px;
+	font-family: Avenir;
+	color: #C4141E;
+	margin-bottom: 0;
+	letter-spacing: 20;
+}
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #399474;
+}
+button {
+	width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid #399474;
+  background: transparent;
+  color: #399474;
+  font-size: 16px;
+}
+
+/*   */
+
+.Color {
+	background-color: #EEF6F3;
+	margin-left: -140px;
+}
+header {
+	height: 800px;
+	background-color: #EEF6F3;
+	margin-left: 140px;
+	margin-right: -130px;
+}
+
+/*   */
+
+nav img {
+	width: 270px;
+	margin-left: -110;
+}
+ul {
+  text-decoration: none;
+  color: #399474;
+  list-style: none;
+  font-weight: 200;
+}
+Nav {
+  font-size: 15px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+Nav ul li a {
+  text-decoration: none;
+  color: #399474;
+  text-transform: uppercase;
+}
+Nav ul li a:hover {
+	font-weight: 600;
+	transition-duration: 300ms;
+}
+
+/*   */
+
+.HeadBanner {
+	margin-top: 200px;
+	text-align: center;
+	margin-right: 140px;
+	position: relative;
+}
+
+.HeadBanner h1 {
+	font-size: 80px;
+	margin-bottom: 0;
+}
+
+.HeadBanner img {
+	height: 372.35px;
+	width: 496.47px;
+	margin-bottom: -100px;
+	margin-top: -150px;
+}
+
+.HeadBanner img:hover {
+	scale: 110%;
+	transition-duration: 300ms;
+}
+
+/*   */
+
+.arrow {
+	position: absolute;
+	top: 50%;
+}
+
+.left {
+	left: 20px;
+	transform: translate(0,-50%);
+}
+
+.right {
+	right: 20px;
+	transform: translate(0,-50%);
+}
+
+.arrow img {
+	width: 60px;
+	height: 60px;
+}
+
+/*   */
+
+
+.PlainContent {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.Text {
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+
+/*   */
+
+footer {
+	background-color: #399474;
+	margin-left: -140px;
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+	align-items: center;
+	margin-right: -140px;
+	margin-top: 100px;
+}
+.logo img {
+	height: 85px;
+	width: 270px;
+	margin-left: 140px;
+}
+.links img {
+	height: 70px;
+	width: 70px;
+}
+.links {
+	margin-right: 140px;
+}

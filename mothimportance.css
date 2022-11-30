@@ -1,0 +1,203 @@
+body {
+	font-family: Avenir; sans-serif;
+	color: #399474;
+	margin-left: 140px;
+	margin-right: 140px;
+
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 35px;
+	font-family: serif;
+}
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #399474;
+}
+button {
+	width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid #399474;
+  background: transparent;
+  color: #399474;
+  font-size: 16px;
+}
+
+/*   */
+
+.Color {
+	background-color: #EEF6F3;
+	margin-left: -140px;
+}
+header {
+	height: 800px;
+	background-color: #EEF6F3;
+	margin-left: 140px;
+	margin-right: -130px;
+}
+
+/*   */
+
+nav img {
+	width: 270px;
+	margin-left: -110;
+}
+ul {
+  text-decoration: none;
+  color: #399474;
+  list-style: none;
+  font-weight: 200;
+}
+Nav {
+  font-size: 15px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+Nav ul li a {
+  text-decoration: none;
+  color: #399474;
+  text-transform: uppercase;
+}
+Nav ul li a:hover {
+	font-weight: 600;
+	transition-duration: 300ms;
+}
+
+/*   */
+
+.HeadBanner {
+	margin-top: 200px;
+	text-align: center;
+	margin-right: 140px;
+}
+
+.HeadBanner h1 {
+	font-size: 80px;
+	margin-bottom: 0;
+}
+
+.HeadBanner p {
+	font-family: serif;
+	font-size: 25px;
+	margin-top: 0;
+}
+
+
+/*   */
+
+
+.Content h3 {
+	font-family: Avenir;
+	color: #C4141E;
+	font-weight: 500;
+	font-size: 45px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.Content p {
+	font-family: serif;
+	font-size: 25px;
+	margin-top: 0;
+	padding-top: 10;
+}
+
+.BeautyBanner img {
+	height: 530px;
+	width: 516px;
+	margin-right: 140px;
+}
+.BeautyBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.CulturalBanner img {
+	height: 530px;
+	width: 516px;
+	margin-left: -30px;
+}
+.CulturalBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 140px;
+}
+.CulturalText {
+	margin-left: 50px;
+}
+
+
+.SilkBanner img {
+	height: 530px;
+	width: 516px;
+	margin-right: 140px;
+}
+.SilkBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+
+
+/*   */
+
+footer {
+	background-color: #399474;
+	margin-left: -140px;
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+	align-items: center;
+	margin-right: -140px;
+}
+.logo img {
+	height: 85px;
+	width: 270px;
+	margin-left: 140px;
+}
+.links img {
+	height: 70px;
+	width: 70px;
+}
+.links {
+	margin-right: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

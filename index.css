@@ -1,0 +1,282 @@
+body {
+	font-family: Avenir; sans-serif;
+	color: #399474;
+	margin-left: 140px;
+}
+h2 {
+	font-size: 45px;
+}
+h3 {
+	font-size: 35px;
+}
+a {
+	text-decoration: none;
+	list-style: none;
+	color: #399474;
+}
+button {
+	width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid #399474;
+  background: transparent;
+  color: #399474;
+  font-size: 16px;
+}
+
+button:hover {
+	background-color: #399474;
+	transition-duration: 300ms;
+}
+
+button:hover a{
+	color: white;
+	transition-duration: 300ms;
+}
+
+/*  */
+
+header {
+	height: 850px;
+	background-image: url("Images/HeaderBG.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*  */
+
+nav img {
+	width: 270px;
+	margin-left: -110;
+}
+ul {
+  text-decoration: none;
+  color: #399474;
+  list-style: none;
+  font-weight: 200;
+}
+Nav {
+  font-size: 15px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+Nav ul li a {
+  text-decoration: none;
+  color: #399474;
+  text-transform: uppercase;
+}
+Nav ul li a:hover {
+	font-weight: 600;
+	transition-duration: 300ms;
+}
+
+/*  */
+
+.HeadBanner {
+	margin-top: 500px;
+}
+.HeadBanner h1 {
+	font-size: 80px;
+	margin-bottom: 0;
+}
+.HeadBanner p {
+	font-family: Monarcha; serif;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+
+/*  */
+
+.Banner2 {
+	margin-top: 50px;
+	height: 400px;
+	background-image: url("Images/AurelianDef.png");
+	background-size: 1920px 400px;
+	margin-left: -140px;
+	font-family: serif;
+	font-weight: 500;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Banner2 .Text {
+	margin-right: 140px;
+}
+.Text:hover {
+	font-style: italic;
+}
+
+/*  */
+
+.Banner3 {
+	text-align: center;
+	color: white;
+	margin-right: 140px;
+	margin-left: 140px;
+}
+
+.Banner3 button {
+	width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.Banner3 button a {
+	color: white;
+}
+.Banner3 button:hover {
+	background-color: white;
+	transition-duration: 300ms;
+}
+
+.Banner3 button:hover a{
+	color: #399474;
+	transition-duration: 300ms;
+}
+
+.Banner3Text {
+	background-color: #62AA91;
+	border-radius: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.Banner3Text h2 {
+	padding-top: 20px;
+	margin-bottom: -5px;
+}
+
+.idk {
+	height: 300px;
+	margin-left: -140px;
+	background-image: url("Images/GuideBannerBG.png");
+	background-size: cover;
+	justify-content: center;
+}
+
+/*  */
+
+.Banner4 {
+	background-color: #EEF6F3;
+	margin-left: -140px;
+}
+.Banner4 h3 {
+	font-family: Avenir;
+	color: #C4141E;
+	font-weight: 500;
+	font-size: 45px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.Banner4 p {
+	font-family: serif;
+	font-size: 25px;
+	margin-top: 0;
+	padding-top: 10;
+}
+
+.BeautyBanner img {
+	height: 530px;
+	width: 516px;
+	margin-right: 140px;
+}
+.BeautyBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.CulturalBanner img {
+	height: 530px;
+	width: 516px;
+	margin-left: -30px;
+}
+.CulturalBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 140px;
+}
+.CulturalText {
+	margin-left: 50px;
+}
+
+
+.SilkBanner img {
+	height: 530px;
+	width: 516px;
+	margin-right: 140px;
+}
+.SilkBanner {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 140px;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+/*  */
+
+.PlainBanner {
+	text-align: center;
+	margin-right: 140px;
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+.PlainBanner p {
+	font-family: serif;
+	font-size: 30px;
+}
+
+/*  */
+
+footer {
+	background-color: #399474;
+	margin-left: -140px;
+	display: flex;
+	justify-content: space-between;
+	height: 250px;
+	align-items: center;
+}
+.logo img {
+	height: 85px;
+	width: 270px;
+	margin-left: 140px;
+}
+.links img {
+	height: 70px;
+	width: 70px;
+}
+.links {
+	margin-right: 140px;
+}
+
+
